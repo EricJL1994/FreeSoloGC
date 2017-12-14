@@ -1,0 +1,1 @@
+ALTER TABLE public.patients ADD password TEXT NOT NULL DEFAULT '';

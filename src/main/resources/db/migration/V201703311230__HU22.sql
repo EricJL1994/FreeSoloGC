@@ -1,0 +1,6 @@
+CREATE TABLE public.pharmacies
+(
+    NIF INT PRIMARY KEY NOT NULL,
+    NAME TEXT NOT NULL,
+    ADDRESS TEXT NOT NULL
+);

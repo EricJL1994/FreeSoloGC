@@ -1,0 +1,9 @@
+CREATE TABLE public.history
+(
+  ID SERIAL PRIMARY KEY NOT NULL
+);
+
+
+ALTER TABLE public.patients
+  ADD CONSTRAINT history_id
+FOREIGN KEY (id) REFERENCES history (id) ON DELETE CASCADE ON UPDATE CASCADE;
